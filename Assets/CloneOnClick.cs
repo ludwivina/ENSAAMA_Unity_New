@@ -22,6 +22,8 @@ public class CloneonClick : MonoBehaviour
         for (int i = 0; i < numberOfClones; i = i + 1) {
             GameObject clone = Instantiate (gameObject);
             Destroy(clone, 3f);
+
+            //f
         }
     }
 }
