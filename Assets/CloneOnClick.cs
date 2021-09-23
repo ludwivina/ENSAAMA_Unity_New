@@ -6,7 +6,11 @@ public class CloneonClick : MonoBehaviour
 {
     public int numberOfClones = 3;
 
-    
+    // Start is called before the first frame update
+    void Start()
+    {
+       
+    }
 
     // Update is called once per frame
     void Update()
@@ -22,8 +26,6 @@ public class CloneonClick : MonoBehaviour
         for (int i = 0; i < numberOfClones; i = i + 1) {
             GameObject clone = Instantiate (gameObject);
             Destroy(clone, 3f);
-
-            //f
         }
     }
 }
